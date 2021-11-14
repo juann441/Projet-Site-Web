@@ -1,0 +1,89 @@
+html
+{
+    scroll-behavior: smooth;
+    background-color: #1b1b20;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.conteiner_principal {
+  display: flex;
+  flex-direction: column;
+}
+.title_contact{
+  font-family: "Nunito", serif;
+  flex-grow: 1;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0), 0 0 5px #5c9ff8, 0 0 30px #5c9ff8, 0 0 5px #5c9ff8, 0 0 5px #5c9ff8, 0 0 5px #5c9ff8;
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  margin: 2rem;
+}
+.conteiner_info {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.adress {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #1b1b20;
+  align-items: center;
+
+}
+.conteiner_client{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.telephone {
+  flex-grow: 1;
+  color: #ffffff;
+}
+.courier {
+  flex-grow: 1;
+  color: #ffffff;
+}
+.about_us {
+  flex-grow: 1;
+  margin: 2rem;
+  color: #ffffff;
+}
+
+.map{
+  justify-content: center;
+  background-color: #1b1b20;
+  margin: 1rem;
+  display: flex;
+}
+.nom_adresse {
+  flex-grow: 1;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #16a4e6;
+  font-weight: 100;
+  text-decoration: underline solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+
+}
+/* mdif 26/10*/
+#text50,#text70,#text90{
+  display: inline;
+  position:absolute;
+  margin-left: 5px;
+}
+/* mdif 26/10*/

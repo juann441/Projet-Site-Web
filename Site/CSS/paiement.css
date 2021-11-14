@@ -1,0 +1,81 @@
+body{
+    margin:0
+}
+
+.form1{
+    order:0
+}
+
+.form2{
+    justify-self: center;
+    order:1
+}
+body{
+    background-color: #1b1b20;
+    color: rgb(255, 255, 255);
+}
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    font-family: "Nunito", serif;
+}
+.commentaire {
+    font-family: "Nunito", serif;
+}
+div {
+    margin-bottom: 10px;
+}
+.boite_recap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Nunito", serif;
+}
+h1{
+    color: darkcyan;
+    font-family: "Lobster", serif;
+}
+.button{
+    background-color: #00aeff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Lobster", serif;
+}
+.bloc_payement{
+    display: flex;
+    flex-direction: row;
+
+}
+.bloc_fils_panier{
+    background-color: #1b1b20;
+    display: flex;
+    flex-direction: column;
+    font-family: "Nunito", serif;
+    flex-grow: 1;
+}
+.bloc_fils_livraison{
+    flex-grow: 1;
+    background-color: #1b1b20;
+}
+.conteneur_achats{
+    background-color: #1b1b20;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.conteneur_prix{
+    flex-grow: 1;
+
+}
+.nom_achat, .image_achat{
+    flex-grow: 1;
+}

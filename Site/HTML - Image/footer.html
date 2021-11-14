@@ -1,0 +1,127 @@
+<footer>
+  <style>
+
+.foot
+{
+    flex-direction: row;
+    display: flex;
+    border:50px;
+    border-color: #0a0101;
+    background-color: #1b1b20;
+    height: 30vh;
+    box-shadow: 5px -10px 10px #ffffff;
+    margin-top: 50px;
+}
+
+.left{
+  flex-grow: 2;
+  justify-content: flex-start;
+  display: flex;
+  background-color: #1b1b20;
+  flex-direction: column;
+}
+
+.map{
+  flex-grow: 2;
+  display: flex;
+  max-height: 100%;
+  max-width: 100%;
+  background-color: #1b1b20;
+}
+
+.about{
+  background-color: #1b1b20;
+  display: block;
+  max-height: 100%;
+  color: #ffffff;
+  font-size: x-large;
+}
+
+.adress{
+  display: inline;
+  justify-content: flex-end;
+  margin-top: auto;
+  background-color: #1b1b20;
+}
+
+.midbot{
+  flex-grow: 2;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  background-color: #1b1b20;
+}
+
+
+#reseau{
+  margin-top: auto;
+  display: flex;
+  margin-left: auto;
+}
+
+#fb , #tw , #insta {
+  background-color: #1b1b20;
+  width: 8vh;
+  height: 8vh;
+}
+
+.right
+{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    background-color:#1b1b20;
+    align-items: flex-end;
+}
+  </style>
+    <div class="foot">
+        
+      <div class="left">
+  
+        <div class="about">
+          <h1>A propos de nous</h1><br>
+          <a href="tel:0123456789">Appelez nous !</a>
+          <a href="KustomKontrollers@gmail.com"> contact mail</a>
+          
+  
+          <div class="adress">
+            <address>17 Rue Dr Bouchut <br>
+            69003 Lyon
+            </address>
+          </div>
+        
+        </div>
+      </div>
+      
+      <div class="map">
+        <iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.4532617975233!2d4.853516515440858!3d45.7621057791056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea617e741cc7%3A0x11c98530dd2b97c2!2sCentre%20Commercial%20Part%20Dieu%2C%2017%20Rue%20Dr%20Bouchut%2C%2069003%20Lyon!5e0!3m2!1sfr!2sfr!4v1634023736798!5m2!1sfr!2sfr" frameborder="0"></iframe>
+      </div>
+  
+      <div class="midbot">
+        <div id="map">
+          
+        </div>
+  
+        <div id=reseau>
+          <a id="fb" href="https://www.facebook.com/">
+            <img src="/images/facebook.png" alt="bouton facebook" style="max-width:100%;">
+          </a>
+          <a id="fb" href="https://www.twitter.com/">
+            <img id="tw" src="/images/twitter.jpg" alt="bouton twitter">
+          </a>
+          <a id="fb" href="https://www.instagram.com/">
+            <img id="insta" src="/images/isnta.jpg" alt="bouton instagram">
+          </a>
+        </div>
+  
+  
+      </div>
+  
+      <div class="right">
+  
+        <a href="#top" class="scrolltotop"><img src="https://i.ibb.co/89Fhymk/to-top.png"/></a>
+  
+      </div>
+  
+    </div>
+</footer>

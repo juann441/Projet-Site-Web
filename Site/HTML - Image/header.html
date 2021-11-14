@@ -1,0 +1,122 @@
+<header>
+    <style>
+    html
+    {
+    scroll-behavior: smooth;
+    background-color: #1b1b20;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    }
+    
+    a{
+      text-decoration:none; 
+      color: white;
+    }
+
+    #nom_marque{
+        font-size: 60px;
+        font-family:"Stick No Bills";
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 5px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0), 0 0 20px #5c9ff8, 0 0 30px #5c9ff8, 0 0 40px #5c9ff8, 0 0 55px #5c9ff8, 0 0 75px #5c9ff8;
+        text-align: center;
+    }
+      
+      
+      header{
+        display: block;
+        background-color: #1b1b20;
+      }
+      
+      
+      .main{
+        background-color:#1b1b20;
+        box-shadow: 5px 10px 10px #ffffff;
+        display: flex;
+        margin-bottom: 2vh;
+        height: 6vh;
+        justify-content: space-between;
+      }
+      
+      
+      
+      .logo
+      {   
+          display: flex;
+          height:100%;
+          background-color: #1b1b20;
+      }
+      
+      .click
+      {
+          display: flex;
+          justify-content: center;
+          box-sizing: border-box;
+          justify-content: space-around;
+          width: 30%;
+          padding: 10px;
+      
+        }
+      
+        .perso{
+          display: flex;
+          justify-content: center;
+          box-sizing: border-box;
+          justify-content: space-around;
+          width: 30%;
+          padding: 10px;
+        }
+      
+      #ps5btn, #xboxbtn,#switchbtn,#apropos_contact {
+        color: rgb(255, 255, 255);
+        display: flex;
+        text-shadow: 0px 0px 10px #ffffff;
+      }
+      
+      
+      
+      #ps5btn:hover , #xboxbtn:hover , #switchbtn:hover{
+        background-color: rgb(59, 148, 250);
+        transition: 0.5s;
+        font-size: 120%;
+        border: rgb(59, 148, 250);
+        border-radius: 5px;
+        border-width: 100px;
+      }
+      
+      #acc , #pay{
+        text-shadow: 0px 0px 10px #ffffff;
+        color: rgb(255, 255, 255);
+      }
+      
+      #apropos_contact:hover, #pay:hover{
+        font-size: 120%;
+        transition: 0.5s;
+        position:static;
+        height: 5vh;
+        
+      }
+</style>
+    <h1 id="nom_marque"><a href="/Site/HTML - Image/index.html">KUSTOM KONTROLLERS</a></h1>
+    <div class="main">
+
+      <div class="logo"> 
+        <img src="/images/logo_bo_2.png">
+      </div> 
+
+      <div class="click">
+        <a id="ps5btn" href="/Site/HTML - Image/personnalisation.html?id=1">PS5</a>
+        <a id="xboxbtn" href="/Site/HTML - Image/personnalisation.html?id=2">Xbox Series X</a>
+        <a id="switchbtn" href="/Site/HTML - Image/personnalisation.html?id=3">Switch</a>
+     </div>
+
+      <div class="perso">
+        <a id="pay" href="paiement.html">Commander et payer</a>
+        <a id="apropos_contact" href="page_contact.html">Contact</a>
+      </div>
+
+  </div>
+      
+</header>

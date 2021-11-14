@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Site/CSS/Index.css">
+    <link rel="preload" href="/Site/JS/script.js" as="script">
+    <title>KustomKontrollers</title>
+</head>
+
+<script src="/Site/JS/script.js" defer></script>
+
+<body>
+  <div class="wrapper">
+
+    <div  class="top">
+
+      <header id="header"></header>
+
+    </div> 
+    
+    
+    <div class="midtop">
+
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="images/xboxsample1.png" style="width:100%" width="auto" >
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/ps5sample1.jpg" style="width:100%" height="auto" >
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/switchsample1.png" style="width:100%" height="auto" >
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+    </div>
+
+
+    <div class=mid>
+
+      <h2 id="filtre_titre">Choisissez un filtre:</h2>
+
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Toutes</button>
+        <button class="btn" onclick="filterSelection('50max')"> 50€ maximum</button>
+        <button class="btn" onclick="filterSelection('70max')"> 70€ maximum</button>
+        <button class="btn" onclick="filterSelection('filter_ps')"> Manettes Playstation</button>
+        <button class="btn" onclick="filterSelection('filter_xbox')"> Manettes Xbox</button>
+        <button class="btn" onclick="filterSelection('filter_nintendo')"> Manettes Nintendo</button>
+      </div>
+
+    </div>
+
+    <div id="midbot">
+      <div class="container">
+        <div class="filterDiv 50max filter_ps 70max"><a href="personnalisation.html?id=1">
+          <img src="https://www.pngall.com/wp-content/uploads/5/PS5-Controller-PNG-Image.png" width="200px">
+          <div id="text50">50€</div></a>
+        </div>
+        <div class="filterDiv 70max filter_xbox"><a href="personnalisation.html?id=2">
+          <img src="https://cdn.pixabay.com/photo/2020/05/12/10/55/xbox-5162428_960_720.png" width='200px'><div id="text70">70€</div></a>
+        </div>
+        <div class="filterDiv filter_nintendo"><a href="personnalisation.html?id=3">
+          <img src="https://cdn.pixabay.com/photo/2020/05/15/08/28/switch-5172817_960_720.png" width="200px"><div id="text90">90€</div></a>
+        </div>
+      
+      </div>
+    </div>
+  
+
+    <div class=bot>
+
+        <footer id="footer"></footer>
+
+    </div>    
+</body>
+</html>
+

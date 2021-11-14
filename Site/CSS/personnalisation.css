@@ -1,0 +1,477 @@
+
+
+body{
+    background-color: #1b1b20;
+    color: white;
+    margin:0
+}
+
+html
+{
+    scroll-behavior: smooth;
+    background-color: #1b1b20;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    margin:0
+}
+
+
+.nomborder{
+    border: 5px solid #1C6EA4;
+    border-radius: 40px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+#nom-manette{
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.conteiner-ps5perso{
+    flex-direction: row;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.img-ps5perso{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+    height: auto;
+    padding: 0px;
+    border-top: 5px solid #1C6EA4;
+    border-bottom: 5px solid #1C6EA4;
+    border-left: 5px solid #1C6EA4;
+
+}
+.selector{
+    flex-grow: 1;
+    height: auto;
+    margin-left: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #1C6EA4;
+}
+#imggauche, #idps5f, #idjoyd, #idjoyg, #idbtn, #idcroix{
+    position:absolute;
+    max-width: 70vh;
+    height: auto;
+}
+
+.texte-prixborder{
+    flex-grow: 1;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.texte-prixtext{
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.val-prix{
+    flex-grow: 1;
+}
+.colorselector{
+    display: flex;
+    flex-direction: row;
+    width: 30vh;
+    justify-content: space-between;
+}
+
+.dotred {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(252, 30, 30);
+    border-radius: 50%;
+    display: inline-block;
+    transition: transform .2s;
+}
+.dotgreen {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(49, 180, 56);
+    border-radius: 50%;
+    display: inline-block;
+    transition: transform .2s;
+}
+.dotblue {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(10, 75, 197);
+    border-radius: 50%;
+    display: inline-block;
+    transition: transform .2s;
+}
+
+.reset{
+    height: 25px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    transition: transform .2s;
+}
+.dotgreen:hover,.dotred:hover,.dotblue:hover,.reset:hover {
+    transform: scale(1.2);
+}
+
+.resetbox{
+    display: flex;
+    justify-content: center;
+}
+
+
+#resetall{
+    margin-top: 15px;
+    height: 25px;
+    width: fit-content;
+    background-color: rgba(255, 170, 170, 0.712);
+    border-radius: 10%;
+    display: flex;
+    transition: transform .2s;
+}
+
+.prix{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#boxprix{
+    display: flex;
+}
+
+#prixps5{
+    color: rgb(255, 255, 255);
+    font-size:50px;
+    display: flex;
+}
+
+#boxadd{
+    display: inline;
+}
+
+#addcartbutton{
+    display: inline;
+}
+
+
+
+.nomborder{
+    border: 5px solid #1C6EA4;
+    border-radius: 40px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+#nom-manette{
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.conteiner-switchperso{
+    flex-direction: row;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.img-switchperso{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+    height: auto;
+    padding: 0px;
+    border-top: 5px solid #1C6EA4;
+    border-bottom: 5px solid #1C6EA4;
+    border-left: 5px solid #1C6EA4;
+
+}
+.selector{
+    flex-grow: 1;
+    height: auto;
+    margin-left: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #1C6EA4;
+}
+#imggauche, #idswitchf, #idjoyd, #idjoyg, #idbtn, #idcroix{
+    position:absolute;
+    max-width: 70vh;
+    height: auto;
+}
+
+.texte-prixborder{
+    flex-grow: 1;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.texte-prixtext{
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.val-prix{
+    flex-grow: 1;
+}
+.colorselector{
+    display: flex;
+    flex-direction: row;
+    width: 30vh;
+    justify-content: space-between;
+}
+
+.dotred {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(252, 30, 30);
+    border-radius: 50%;
+    display: inline-block;
+    transition: transform .2s;
+}
+.dotgreen {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(49, 180, 56);
+    border-radius: 50%;
+    display: inline-block;
+    transition: transform .2s;
+}
+.dotblue {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(10, 75, 197);
+    border-radius: 50%;
+    display: inline-block;
+    transition: transform .2s;
+}
+
+.dotorange {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(255, 180, 40);
+    border-radius: 50%;
+    display: inline-block;
+    transition: transform .2s;
+}
+
+.reset{
+    height: 25px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    transition: transform .2s;
+}
+.dotgreen:hover,.dotred:hover,.dotblue:hover,.reset:hover,.dotorange:hover {
+    transform: scale(1.2);
+}
+
+.resetbox{
+    display: flex;
+    justify-content: center;
+}
+
+
+#resetall{
+    margin-top: 15px;
+    height: 25px;
+    width: fit-content;
+    background-color: rgba(255, 170, 170, 0.712);
+    border-radius: 10%;
+    display: flex;
+    transition: transform .2s;
+}
+
+.prix{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#boxprix{
+    display: flex;
+}
+
+#prixswitch{
+    color: rgb(255, 255, 255);
+    font-size:50px;
+    display: flex;
+}
+
+#boxadd{
+    display: inline;
+}
+
+#addcartbutton{
+    display: inline;
+}
+
+
+
+.nomborder{
+    border: 5px solid #1C6EA4;
+    border-radius: 40px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+#nom-manette{
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.conteiner-xboxperso{
+    flex-direction: row;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.img-xboxperso{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+    height: auto;
+    padding: 0px;
+    border-top: 5px solid #1C6EA4;
+    border-bottom: 5px solid #1C6EA4;
+    border-left: 5px solid #1C6EA4;
+
+}
+.selector{
+    flex-grow: 1;
+    height: auto;
+    margin-left: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #1C6EA4;
+}
+#imggauche, #idxboxf, #idjoyd, #idjoyg, #idbtn, #idcroix{
+    position:absolute;
+    max-width: 70vh;
+    height: auto;
+}
+
+.texte-prixborder{
+    flex-grow: 1;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.texte-prixtext{
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.val-prix{
+    flex-grow: 1;
+}
+.colorselector{
+    display: flex;
+    flex-direction: row;
+    width: 30vh;
+    justify-content: space-between;
+}
+
+.dotred {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(252, 30, 30);
+    border-radius: 50%;
+    display: inline-block;
+    transition: transform .2s;
+}
+.dotgreen {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(49, 180, 56);
+    border-radius: 50%;
+    display: inline-block;
+    transition: transform .2s;
+}
+.dotblue {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(10, 75, 197);
+    border-radius: 50%;
+    display: inline-block;
+    transition: transform .2s;
+}
+
+.reset{
+    height: 25px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    transition: transform .2s;
+}
+.dotgreen:hover,.dotred:hover,.dotblue:hover,.reset:hover {
+    transform: scale(1.2);
+}
+
+.resetbox{
+    display: flex;
+    justify-content: center;
+}
+
+
+#resetall{
+    margin-top: 15px;
+    height: 25px;
+    width: fit-content;
+    background-color: rgba(255, 170, 170, 0.712);
+    border-radius: 10%;
+    display: flex;
+    transition: transform .2s;
+}
+
+.prix{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#boxprix{
+    display: flex;
+}
+
+#prixxbox{
+    color: rgb(255, 255, 255);
+    font-size:50px;
+    display: flex;
+}
+
+#boxadd{
+    display: inline;
+}
+
+#addcartbutton{
+    display: inline;
+}
